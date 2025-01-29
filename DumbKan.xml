@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbKan</Name>
+  <Repository>dumbwareio/dumbkan</Repository>
+  <Registry>https://github.com/DumbWareio/DumbKan</Registry>
+  <Network>Bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/zJutzxWyq2</Support>
+  <Project>https://github.com/DumbWareio/DumbKan</Project>
+  <Overview>A stupid simple kanban board. Create columns, add cards, drag and drop. No fancy features, it just works.</Overview>
+  <Category>Tools: Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/DumbWareio/DumbKan/blob/main/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738127932</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="3000" Default="" Mode="tcp" Description="Container Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Path" Target="/app/data" Default="" Mode="rw" Description="App Data" Type="Path" Display="always" Required="false" Mask="false"></Config>
+</Container> 

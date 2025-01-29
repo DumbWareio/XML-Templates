@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbMonitor</Name>
+  <Repository>dumbwareio/dumbmonitor</Repository>
+  <Registry>https://github.com/DumbWareio/DumbMonitor</Registry>
+  <Network>Bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/zJutzxWyq2</Support>
+  <Project>https://github.com/DumbWareio/DumbMonitor</Project>
+  <Overview>A stupid simple application monitor. See the status of all your applications. No fancy features, it just works.</Overview>
+  <Category>Tools: Network Services:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon></Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738127932</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="3000" Default="" Mode="tcp" Description="Container Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+</Container> 

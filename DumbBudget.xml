@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbBudget</Name>
+  <Repository>dumbwareio/dumbbudget</Repository>
+  <Registry>https://github.com/DumbWareio/DumbBudget</Registry>
+  <Network>Bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/zJutzxWyq2</Support>
+  <Project>https://github.com/DumbWareio/DumbBudget</Project>
+  <Overview>A stupid simple budget tracker. Add income, expenses, and see your balance. No fancy features, it just works.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/DumbWareio/DumbBudget/blob/main/icon.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738127932</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="3000" Default="" Mode="tcp" Description="Container Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Path" Target="/app/data" Default="" Mode="rw" Description="App Data" Type="Path" Display="always" Required="false" Mask="false"></Config>
+</Container> 

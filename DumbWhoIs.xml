@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbWhoIs</Name>
+  <Repository>dumbwareio/dumbwhois</Repository>
+  <Registry>https://github.com/DumbWareio/DumbWhoIs</Registry>
+  <Network>Bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/zJutzxWyq2</Support>
+  <Project>https://github.com/DumbWareio/DumbWhoIs</Project>
+  <Overview>A stupid simple WhoIs lookup tool. Enter a domain, get the info. No fancy features, it just works.</Overview>
+  <Category>Tools: Network Services:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/DumbWareio/DumbWhoIs/blob/main/icon.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738127932</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="3000" Default="" Mode="tcp" Description="Container Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+</Container> 

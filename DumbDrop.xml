@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DumbDrop</Name>
+  <Repository>dumbwareio/dumbdrop</Repository>
+  <Registry>https://github.com/DumbWareio/DumbDrop</Registry>
+  <Network>Bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/zJutzxWyq2</Support>
+  <Project>https://github.com/DumbWareio/DumbDrop</Project>
+  <Overview>A stupid simple file drop software. Set a directory and drop files into it. No reading, only writing, it just works.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/abiteman/DumbDrop/blob/main/icon.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738127932</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Path" Target="/app/uploads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DUMBDROP_PIN" Target="DUMBDROP_PIN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+</Container>
